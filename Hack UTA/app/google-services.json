@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "497462549622",
+    "firebase_url": "https://hack-uta.firebaseio.com",
+    "project_id": "hack-uta",
+    "storage_bucket": "hack-uta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497462549622:android:6893571bd7e56edd",
+        "android_client_info": {
+          "package_name": "hackuta.vikramtandonapps.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497462549622-etl9fhbf8gfqnkgr6p3mg43tec155fe0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hackuta.vikramtandonapps.com",
+            "certificate_hash": "a088c8f47b8219aef1d8e62d96820334b1d3f2b9"
+          }
+        },
+        {
+          "client_id": "497462549622-g5ceff79kpkke5e58mubnkbns2mh6g6u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXtpHC5R3gqm8-4yUBroud9eDGZeC3Ghs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497462549622-g5ceff79kpkke5e58mubnkbns2mh6g6u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

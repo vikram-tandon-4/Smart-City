@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dp25"
+    android:gravity="center">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilVerifyCode"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/dp15"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etVerifyCode"
+            style="@style/EditTextStyle"
+            android:hint="@string/verify_code"
+            android:inputType="number"
+            android:maxLength="4" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tvVerifyCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="@dimen/dp20"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:maxLines="1"
+        android:padding="@dimen/dp15"
+        android:text="@string/verify_code_button"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/sp18" />
+
+</LinearLayout>
